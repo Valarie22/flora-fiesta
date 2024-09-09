@@ -1,0 +1,178 @@
+.header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Full viewport height */
+    background-color: #d6ecf7; /* Light background color for contrast */
+    background: url('/images/flower-field-250016_640.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  .header-image-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Full viewport height */
+    background-color: #d6ecf7; /* Light background color for contrast */
+    background: url('/images/her\ story.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .header-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  .header-text {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to true center */
+    color:rgb(167, 29, 185); /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+    font-size: 3rem; /* Adjust font size as needed */
+    text-align: center; /* Center text */
+  }
+  .header-text-story{
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to true center */
+    color:rgb(12, 10, 12); /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+    font-size: 3rem; /* Adjust font size as needed */
+    text-align: center; /* Center text */
+  }
+
+  .story-section {
+    padding: 40px 0; /* Padding for top and bottom */
+    background-color: #f0f0f0; /* Light grey background for contrast */
+  }
+
+  .story-section h2 {
+    margin-bottom: 20px;
+  }
+
+  .story-section img {
+    width: 100%; /* Full width for responsive design */
+    border-radius: 8px; /* Rounded corners for aesthetic */
+  }
+
+  .story-text {
+    padding-left: 20px;
+  }
+  .btn-join {
+    margin-top: 20px; /* Space above the button */
+    background-color: #28a745; /* Green background color */
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.25rem; /* Larger font size */
+  }
+
+  .btn-join:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  .sustainability-section {
+    padding: 40px 0;
+    background-color: #e9ecef; /* Light grey background */
+  }
+
+  .sustainability-section h2 {
+    margin-bottom: 20px;
+  }
+
+  .sustainability-section p {
+    margin-bottom: 20px;
+  }
+  .mailing-list-section {
+    padding: 40px 0;
+    background-color: #f8f9fa; /* Light background color */
+    text-align: center;
+  }
+
+  .mailing-list-section h2 {
+    margin-bottom: 20px;
+  }
+
+  .mailing-list-section p {
+    margin-bottom: 20px;
+  }
+
+  .mailing-list-section .form-control {
+    border-radius: 0; /* Remove border-radius for a flat look */
+    margin-bottom: 10px;
+  }
+
+  .mailing-list-section .btn-primary {
+    border-radius: 0; /* Remove border-radius for a flat look */
+    padding: 10px 20px; /* Adjust padding for button */
+  }
+h3{
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
+  .flowerCarousel{
+    display: flex;
+    gap: 5px; /* Adjust to control spacing */
+
+  }
+  .contact-us {
+    padding: 50px 20px;
+    background-color: #e0f7fa;
+  }
+  
+  .contact-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-us p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .contact-us address {
+    font-style: normal;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  .contact-us address a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-us address a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-us form {
+    margin-top: 20px;
+  }
+  
+  .contact-us .form-control {
+    border-radius: 8px;
+  }
+  
+  .contact-us .btn {
+    margin-top: 10px;
+  }
+  
